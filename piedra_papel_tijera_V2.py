@@ -57,7 +57,7 @@ def run_game():
         print("WINS PC", computer_wins)
         print("WINS USER", user_wins)
         rounds += 1
-# tienes un error el la 59 
+# tienes un error el la 61 
         user_option, computer_option = choose_options()
 
         user_wins, computer_wins = check_rules(user_option, computer_option, user_wins, computer_wins)
